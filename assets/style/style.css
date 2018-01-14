@@ -45,7 +45,9 @@
 
 .nameTitle {
     /*font-family: 'Amatic SC', cursive;*/
-    font-family: 'Abel', sans-serif;
+    /*font-family: 'Abel', sans-serif;*/
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Roboto Condensed', sans-serif;
     color: #838383;
     font-size: 90px;
     margin-left: 10px;
@@ -70,7 +72,8 @@
 }
 
 .bioTitle{
-    font-family: 'Abel', sans-serif;
+    /*font-family: 'Abel', sans-serif;*/
+    font-family: 'Roboto Condensed', sans-serif;
     color: #838383;
     font-size: 95px;
     margin-left: 50px;
@@ -82,19 +85,42 @@
 }
 
 .projectsTitle{
-    font-family: 'Abel', sans-serif;
+    /*font-family: 'Abel', sans-serif;*/
+    font-family: 'Roboto Condensed', sans-serif;
     color: #838383;
     font-size: 95px;
     margin-left: -70px;
-    margin-top: 140px;
+    margin-top: 150px;
 
+}
+
+.scroll-projects{
+    /*overflow-y: scroll;*/
+    margin-top: 130px;
+    height:30vh;
+    width:100%;
+}
+
+.project-item-image{
+    height:100px;
+    width: auto;
+}
+
+.project-item-title{
+    height:100px;
+    width: auto;
+}
+
+.space{
+    height:20px;
 }
 
 .contacts{
  }
 
 .contactsTitle{
-    font-family: 'Abel', sans-serif;
+    /*font-family: 'Abel', sans-serif;*/
+    font-family: 'Roboto Condensed', sans-serif;
     color: #838383;
     font-size: 95px;
     margin-left: 240px;
