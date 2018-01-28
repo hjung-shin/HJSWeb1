@@ -16,14 +16,14 @@
 
 .outside{
     min-height: 75vh;
-    background-color: rgba(193, 66, 66, 0.23);
+    /*background-color: rgba(193, 66, 66, 0.23);*/
     position: relative;
     z-index: 100;
 }
 
 .cardLayout{
-    background-color: dodgerblue;
-    /*background-color: rgba(193, 66, 66, 0.23);*/
+    /*background-color: dodgerblue;*/
+    background-color: rgba(193, 66, 66, 0.23);
     position: absolute;
     height: 450px;
     width: 100%;
@@ -58,6 +58,9 @@
     color: #838383;
     font-size: 30px;
     border-top: 2px dotted red;
+    margin-top: -1vh;
+    margin-left: 25vh;
+    width: 60vh;
 }
 
 .face{
@@ -78,6 +81,17 @@
     font-size: 95px;
     margin-left: 50px;
     margin-top: -40px;
+}
+
+.bio-font{
+    font-family: 'Abel', sans-serif;
+    color: #838383;
+    font-size: 30px;
+}
+
+.tab{
+    padding-left:5em;
+    margin-left:5em;
 }
 
 .projects{
@@ -109,6 +123,7 @@
 .project-item-title{
     height:100px;
     width: auto;
+    color: #838383;
 }
 
 .space{
